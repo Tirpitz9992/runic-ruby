@@ -1,0 +1,18 @@
+current directory: /home/tiz/project/runic-ruby/ru-be/vendor/bundle/ruby/3.2.0/gems/erb-4.0.4/ext/erb/escape
+/usr/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/tiz/project/runic-ruby/ru-be/vendor/bundle/ruby/3.2.0/gems/erb-4.0.4/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20240810-2999439-hhv8sn sitelibdir\=./.gem.20240810-2999439-hhv8sn clean
+
+current directory: /home/tiz/project/runic-ruby/ru-be/vendor/bundle/ruby/3.2.0/gems/erb-4.0.4/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20240810-2999439-hhv8sn sitelibdir\=./.gem.20240810-2999439-hhv8sn
+compiling escape.c
+linking shared-object erb/escape.so
+
+current directory: /home/tiz/project/runic-ruby/ru-be/vendor/bundle/ruby/3.2.0/gems/erb-4.0.4/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20240810-2999439-hhv8sn sitelibdir\=./.gem.20240810-2999439-hhv8sn install
+/usr/bin/install -c -m 0755 escape.so ./.gem.20240810-2999439-hhv8sn/erb
+
+current directory: /home/tiz/project/runic-ruby/ru-be/vendor/bundle/ruby/3.2.0/gems/erb-4.0.4/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20240810-2999439-hhv8sn sitelibdir\=./.gem.20240810-2999439-hhv8sn clean

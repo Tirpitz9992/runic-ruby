@@ -2,7 +2,10 @@ GEM
   remote: https://rubygems.org/
   specs:
     base64 (0.2.0)
+    cgi (0.4.1)
     daemons (1.4.1)
+    erb (4.0.4)
+      cgi (>= 0.3.3)
     eventmachine (1.2.7)
     json (2.7.2)
     multi_json (1.15.0)
@@ -35,6 +38,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  erb
   json
   rack
   sinatra

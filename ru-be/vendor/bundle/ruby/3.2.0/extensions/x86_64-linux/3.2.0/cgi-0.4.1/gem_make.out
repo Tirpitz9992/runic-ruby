@@ -1,0 +1,18 @@
+current directory: /home/tiz/project/runic-ruby/ru-be/vendor/bundle/ruby/3.2.0/gems/cgi-0.4.1/ext/cgi/escape
+/usr/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/tiz/project/runic-ruby/ru-be/vendor/bundle/ruby/3.2.0/gems/cgi-0.4.1/ext/cgi/escape
+make DESTDIR\= sitearchdir\=./.gem.20240810-2999439-urvzu3 sitelibdir\=./.gem.20240810-2999439-urvzu3 clean
+
+current directory: /home/tiz/project/runic-ruby/ru-be/vendor/bundle/ruby/3.2.0/gems/cgi-0.4.1/ext/cgi/escape
+make DESTDIR\= sitearchdir\=./.gem.20240810-2999439-urvzu3 sitelibdir\=./.gem.20240810-2999439-urvzu3
+compiling escape.c
+linking shared-object cgi/escape.so
+
+current directory: /home/tiz/project/runic-ruby/ru-be/vendor/bundle/ruby/3.2.0/gems/cgi-0.4.1/ext/cgi/escape
+make DESTDIR\= sitearchdir\=./.gem.20240810-2999439-urvzu3 sitelibdir\=./.gem.20240810-2999439-urvzu3 install
+/usr/bin/install -c -m 0755 escape.so ./.gem.20240810-2999439-urvzu3/cgi
+
+current directory: /home/tiz/project/runic-ruby/ru-be/vendor/bundle/ruby/3.2.0/gems/cgi-0.4.1/ext/cgi/escape
+make DESTDIR\= sitearchdir\=./.gem.20240810-2999439-urvzu3 sitelibdir\=./.gem.20240810-2999439-urvzu3 clean
