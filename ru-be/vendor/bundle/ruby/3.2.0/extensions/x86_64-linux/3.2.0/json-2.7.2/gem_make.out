@@ -1,0 +1,16 @@
+current directory: /home/tiz/project/runic-ruby/ru-be/vendor/bundle/ruby/3.2.0/gems/json-2.7.2/ext/json
+/usr/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/tiz/project/runic-ruby/ru-be/vendor/bundle/ruby/3.2.0/gems/json-2.7.2/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20240810-2992072-5swj6e sitelibdir\=./.gem.20240810-2992072-5swj6e clean
+
+current directory: /home/tiz/project/runic-ruby/ru-be/vendor/bundle/ruby/3.2.0/gems/json-2.7.2/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20240810-2992072-5swj6e sitelibdir\=./.gem.20240810-2992072-5swj6e
+make: Nothing to be done for 'all'.
+
+current directory: /home/tiz/project/runic-ruby/ru-be/vendor/bundle/ruby/3.2.0/gems/json-2.7.2/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20240810-2992072-5swj6e sitelibdir\=./.gem.20240810-2992072-5swj6e install
+
+current directory: /home/tiz/project/runic-ruby/ru-be/vendor/bundle/ruby/3.2.0/gems/json-2.7.2/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20240810-2992072-5swj6e sitelibdir\=./.gem.20240810-2992072-5swj6e clean

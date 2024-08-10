@@ -1,0 +1,19 @@
+current directory: /home/tiz/project/runic-ruby/ru-be/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/usr/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/tiz/project/runic-ruby/ru-be/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20240810-2992072-8ng1fr sitelibdir\=./.gem.20240810-2992072-8ng1fr clean
+
+current directory: /home/tiz/project/runic-ruby/ru-be/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20240810-2992072-8ng1fr sitelibdir\=./.gem.20240810-2992072-8ng1fr
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.so
+
+current directory: /home/tiz/project/runic-ruby/ru-be/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20240810-2992072-8ng1fr sitelibdir\=./.gem.20240810-2992072-8ng1fr install
+/usr/bin/install -c -m 0755 fastfilereaderext.so ./.gem.20240810-2992072-8ng1fr
+
+current directory: /home/tiz/project/runic-ruby/ru-be/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20240810-2992072-8ng1fr sitelibdir\=./.gem.20240810-2992072-8ng1fr clean

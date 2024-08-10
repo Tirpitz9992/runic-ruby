@@ -1,0 +1,38 @@
+current directory: /home/tiz/project/runic-ruby/ru-be/vendor/bundle/ruby/3.2.0/gems/thin-1.6.2/ext/thin_parser
+/usr/bin/ruby extconf.rb
+checking for main() in -lc... yes
+creating Makefile
+
+current directory: /home/tiz/project/runic-ruby/ru-be/vendor/bundle/ruby/3.2.0/gems/thin-1.6.2/ext/thin_parser
+make DESTDIR\= sitearchdir\=./.gem.20240810-2992072-xdvaeq sitelibdir\=./.gem.20240810-2992072-xdvaeq clean
+
+current directory: /home/tiz/project/runic-ruby/ru-be/vendor/bundle/ruby/3.2.0/gems/thin-1.6.2/ext/thin_parser
+make DESTDIR\= sitearchdir\=./.gem.20240810-2992072-xdvaeq sitelibdir\=./.gem.20240810-2992072-xdvaeq
+compiling parser.c
+compiling thin.c
+thin.c: In function ‘Thin_HttpParser_alloc’:
+thin.c:242:3: error: implicit declaration of function ‘thin_http_parser_init’; did you mean ‘http_parser_init’? [-Wimplicit-function-declaration]
+  242 |   thin_http_parser_init(hp);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+      |   http_parser_init
+thin.c: In function ‘Thin_HttpParser_finish’:
+thin.c:294:3: error: implicit declaration of function ‘thin_http_parser_finish’; did you mean ‘Thin_HttpParser_finish’? [-Wimplicit-function-declaration]
+  294 |   thin_http_parser_finish(http);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~
+      |   Thin_HttpParser_finish
+thin.c:296:10: error: implicit declaration of function ‘thin_http_parser_is_finished’; did you mean ‘http_parser_is_finished’? [-Wimplicit-function-declaration]
+  296 |   return thin_http_parser_is_finished(http) ? Qtrue : Qfalse;
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |          http_parser_is_finished
+thin.c: In function ‘Thin_HttpParser_execute’:
+thin.c:334:5: error: implicit declaration of function ‘thin_http_parser_execute’; did you mean ‘Thin_HttpParser_execute’? [-Wimplicit-function-declaration]
+  334 |     thin_http_parser_execute(http, dptr, dlen, from);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+      |     Thin_HttpParser_execute
+thin.c:338:8: error: implicit declaration of function ‘thin_http_parser_has_error’; did you mean ‘http_parser_has_error’? [-Wimplicit-function-declaration]
+  338 |     if(thin_http_parser_has_error(http)) {
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |        http_parser_has_error
+make: *** [Makefile:248: thin.o] Error 1
+
+make failed, exit code 2

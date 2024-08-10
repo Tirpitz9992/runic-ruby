@@ -1,0 +1,20 @@
+current directory: /home/tiz/project/runic-ruby/ru-be/vendor/bundle/ruby/3.2.0/gems/thin-1.8.2/ext/thin_parser
+/usr/bin/ruby extconf.rb
+checking for main() in -lc... yes
+creating Makefile
+
+current directory: /home/tiz/project/runic-ruby/ru-be/vendor/bundle/ruby/3.2.0/gems/thin-1.8.2/ext/thin_parser
+make DESTDIR\= sitearchdir\=./.gem.20240810-2993201-vlyy3u sitelibdir\=./.gem.20240810-2993201-vlyy3u clean
+
+current directory: /home/tiz/project/runic-ruby/ru-be/vendor/bundle/ruby/3.2.0/gems/thin-1.8.2/ext/thin_parser
+make DESTDIR\= sitearchdir\=./.gem.20240810-2993201-vlyy3u sitelibdir\=./.gem.20240810-2993201-vlyy3u
+compiling parser.c
+compiling thin.c
+linking shared-object thin_parser.so
+
+current directory: /home/tiz/project/runic-ruby/ru-be/vendor/bundle/ruby/3.2.0/gems/thin-1.8.2/ext/thin_parser
+make DESTDIR\= sitearchdir\=./.gem.20240810-2993201-vlyy3u sitelibdir\=./.gem.20240810-2993201-vlyy3u install
+/usr/bin/install -c -m 0755 thin_parser.so ./.gem.20240810-2993201-vlyy3u
+
+current directory: /home/tiz/project/runic-ruby/ru-be/vendor/bundle/ruby/3.2.0/gems/thin-1.8.2/ext/thin_parser
+make DESTDIR\= sitearchdir\=./.gem.20240810-2993201-vlyy3u sitelibdir\=./.gem.20240810-2993201-vlyy3u clean
