@@ -14,4 +14,10 @@ export default defineConfig({
 			},
 		}),
 	],
+	server: {
+		proxy: {
+		  '/api': 'http://localhost:4567',
+		  '/public': 'http://localhost:4567'
+		}
+	  }
 });

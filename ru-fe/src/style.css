@@ -25,16 +25,31 @@ body {
 
 header {
 	display: flex;
-	justify-content: flex-end;
-	background-color: #673ab8;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #f0e6ea;
+	padding: 0 1rem;
 }
+
+.logo {
+	display: flex;
+	align-items: center;
+}
+
+.avatar {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+  
 
 header nav {
 	display: flex;
 }
 
 header a {
-	color: #fff;
+	color: #d9c5d2;
 	padding: 0.75rem;
 	text-decoration: none;
 }
